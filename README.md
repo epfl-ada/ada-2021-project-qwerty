@@ -31,7 +31,9 @@ For the Quotebank data, we load directly with the help of pandas without unpack 
 ## Proposed timeline :
 - Milestone P2, 12 Nov 2021
 - Week 9
+  - Data preprocessing
 - Week 10
+  - 
 - Week 11
 - Week 12
 - Week 13

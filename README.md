@@ -1,4 +1,3 @@
-# ADA_local
 # Title : What's trending in News? A study on the bias of "viral" news
 
 ## Abstract:

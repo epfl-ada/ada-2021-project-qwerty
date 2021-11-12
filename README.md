@@ -17,12 +17,15 @@ Proposed additional datasets (if any): (List the additional dataset(s) you want 
 - Quotebank data from 2015 to 2020
 - Wikidata with speaker informations
 - Wikidata QIDs with labels and description
+- Pantheon Dataset
 
 ### How we manage the data
-For the Quotebank data, we load directly with the help of pandas without unpack the files. We load with chunksize because the data is too big to fit in memory. So we need to handle the data by batch and merge the results (by adding in a list and concatenate this list of results to get the results dataframe). For the Wikidata with speaker information and the wikidata QIDs with labels and description datasets, we directly load all the data because there are much smaller than the first one. We merge these two datasets to get the speaker informations directly (without to look the QIDs in the wikidata QIDs dataset). The merge is done in `parse_speaker_attributes.ipynb`.
+For the Quotebank data, we load directly with the help of pandas without unpack the files. We load with chunksize because the data is too big to fit in memory. So we need to handle the data by batch and merge the results (by adding in a list and concatenate this list of results to get the results dataframe). For the Wikidata with speaker information and the wikidata QIDs with labels and description datasets, we directly load all the data because there are much smaller than the first one. We merge these two datasets to get the speaker informations directly (without to look the QIDs in the wikidata QIDs dataset). The merge is done in `parse_speaker_attributes.ipynb`. We load Pantheon directly from the provided URL.
 
 ## Methods : 
-data analysis with python and NLP
+- Data Preprocessing : We first preprocess the data to only keep the relevant columns and merge it with the other datasets to augment it.
+- Category Extraction: We use the url information to extract information about different categories. We have done this for the NYT data and will either use a pretrained topic extraction model or try to get the value using text mining.
+- Sentiment Analysis: Each quote of the dataset is analyzed to predict the sentiment. We do this using pretrained models. If needed, we will also extract emotion information for more interesting insights.
 
 
 ## Proposed timeline :

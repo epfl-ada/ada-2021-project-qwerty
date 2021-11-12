@@ -11,8 +11,6 @@ Research Questions: (A list of research questions you would like to address duri
 3. Popularity of News: In this part, we aim to study what kind of news is more popular than others. Since for each quote we have the number of news vendors who published it, we can see which quotes and news topics and sentiment are more popular than others. We aim to study whether news vendors publish news topics and sentiments based on popularity. 
 
 
-Proposed additional datasets (if any): (List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.)
-
 ## Datasets
 - Quotebank data from 2015 to 2020
 - Wikidata with speaker informations
@@ -35,6 +33,7 @@ For the Quotebank data, we load directly with the help of pandas without unpack 
 - Week 10
   - Topic Trending Analysis
 - Week 11
+  - Implementation of a classification model
 - Week 12
 - Week 13
 - Milestone P3, 17 Dec 2021

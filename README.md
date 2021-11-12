@@ -36,6 +36,7 @@ For the Quotebank data, we load directly with the help of pandas without unpack 
   - Implementation of a classification model
 - Week 12
 - Week 13
+  - Global visualisation of the results 
 - Milestone P3, 17 Dec 2021
 
 ## Organization within the team: 

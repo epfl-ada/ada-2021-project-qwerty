@@ -33,6 +33,7 @@ For the Quotebank data, we load directly with the help of pandas without unpack 
 - Week 9
   - Data preprocessing
 - Week 10
+  - Topic Trending Analysis
 - Week 11
 - Week 12
 - Week 13

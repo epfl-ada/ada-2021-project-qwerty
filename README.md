@@ -42,5 +42,9 @@ For the Quotebank data, we load directly with the help of pandas without unpack 
 - Milestone P3, 17 Dec 2021
 
 ## Organization within the team: 
+- Amnol: General Exploration on topics and sentiments
+- Tushar: Focus on the analysis for NewYork Times
+- Luca: Extend the timeline for data analysis + build new datasets
+- Qing Jun: Making the website
 
 Questions for TAs (optional): 

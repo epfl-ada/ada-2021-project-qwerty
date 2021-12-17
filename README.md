@@ -47,10 +47,11 @@ For the Quotebank data, we load directly with the help of pandas without unpack 
 - Qing Jun: Making the website
 
 ## P.S
-We have uploaded a single notebook (ADA_Project_QWERTY), but it is too long to render on Github, therefore we have uploaded the 3 parts separately
+We have uploaded a single notebook (ADA_Project_QWERTY), but it is too long to render on Github, therefore we have uploaded the43 parts separately
 - Sentiment_Topic_2019
 - Sentiment-NYT
 - News_topic_extraction_and_NYT
+- speaker_occupation_analysis
 
 We also have more notebooks in the notebooks folder with analysis for each year and the Dataset folder contains some other ones which we used to preprocess the data. 
 

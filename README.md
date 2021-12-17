@@ -8,6 +8,7 @@ Research Questions: (A list of research questions you would like to address duri
 2. Bias in Media: In this submission, we also have shown some preprocessing on textual representations. We aim to develop classification models on quotes which classify a quote's intent as positive or negative. Here, we aim to study for each category of news topics whether the media potrays a positive or a negative outlook. Further, we aim to study which news vendors or speakers are the chief proponents of each outlook in each topic. We also have some information about the speakers itself from the Wikidata dataset. From this, we can also study whether certain sections of the society are represented more than others? Is there a systemic suppression of certain sections of the society and we also learn the stance of each of these societies on different topics
 3. Popularity of News: In this part, we aim to study what kind of news is more popular than others. Since for each quote we have the number of news vendors who published it, we can see which quotes and news topics and sentiment are more popular than others. We aim to study whether news vendors publish news topics and sentiments based on popularity. 
 
+The website can be opened here (https://qingbeixi.github.io/qwerty/)
 
 ## Datasets
 - Quotebank data from 2015 to 2020

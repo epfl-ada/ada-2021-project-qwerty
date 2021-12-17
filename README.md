@@ -52,3 +52,5 @@ We have uploaded a single notebook (ADA_Project_QWERTY), but it is too long to r
 - News_topic_extraction_and_NYT
 
 We also have more notebooks in the notebooks folder with analysis for each year and the Dataset folder contains some other ones which we used to preprocess the data. 
+
+For viewing the interactive plots, download the files in the Plots_interactive folder and open them in a browser.

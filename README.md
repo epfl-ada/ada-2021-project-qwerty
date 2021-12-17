@@ -46,5 +46,3 @@ For the Quotebank data, we load directly with the help of pandas without unpack 
 - Tushar: Focus on the analysis for NewYork Times
 - Luca: Extend the timeline for data analysis + build new datasets
 - Qing Jun: Making the website
-
-Questions for TAs (optional): 

@@ -40,7 +40,7 @@ For the Quotebank data, we load directly with the help of pandas without unpack 
 - Milestone P3, 17 Dec 2021
 
 ## Organization within the team: 
-- Amnol: General Exploration on topics and sentiments
+- Anmol: General Exploration on topics and sentiments
 - Tushar: Focus on the analysis for NewYork Times
 - Luca: Extend the timeline for data analysis + build new datasets
 - Qing Jun: Making the website
@@ -50,4 +50,5 @@ We have uploaded a single notebook (ADA_Project_QWERTY), but it is too long to r
 - Sentiment_Topic_2019
 - Sentiment-NYT
 - News_topic_extraction_and_NYT
+
 We also have more notebooks in the notebooks folder with analysis for each year and the Dataset folder contains some other ones which we used to preprocess the data. 
